@@ -28,5 +28,3 @@ module.exports = function check(str, bracketsConfig) {
 	
 	return arr.reduce((a, b) => a + b) === 0 ? true : false;
 }
-
-let obj = {};
